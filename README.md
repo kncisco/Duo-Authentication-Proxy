@@ -7,7 +7,7 @@ This repository contains the appropriate files and examples to create your own D
 To build your Duo Authentication Proxy container, simply clone this folder and build the container in the cloned folder.  This step will take some time as we have to complice the code.
 > docker build -t Duo_Auth_Proxy_Latest .
 
-*** Pro Tip: A new version of Duo Authentication Proxy is out?  Simply rebuild the container! ***
+***Pro Tip: A new version of Duo Authentication Proxy is out?  Simply rebuild the container!***
 
 ### 2. Run the Container
 Once the container is built, run the container!  An example command is provided which will mount your working directory into the container at the /configs location.
