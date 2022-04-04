@@ -1,0 +1,47 @@
+;;; Please refer to Duo Authentication Proxy reference guide for more information on the following sections and settings ;;;
+;;; https://duo.com/docs/authproxy-reference ;;;
+
+; ### NOTE ### - when using service accounts, ensure that the account is in UPN format (user@domain.suffix)
+
+;;; Client Section ;;;
+
+;;; Edit for AD Domain Controller Connection
+;[ad_client]
+;host=
+;service_account_username=
+;service_account_password=
+;search_dn=
+
+;;; Edit for RADIUS Server Connection
+;[radius_client]
+;;host=
+
+;;; Server Section
+
+;;; Edit if using Duo Authentication Proxy as a RADIUS Server
+;[radius_server_auto]
+;ikey=
+;skey=
+;api_host=
+;radius_ip_1=
+;radius_secret_1=
+;client=
+
+;;; Cloud Section
+
+;;; Edit for AD/LDAP Group Synchronization
+;[cloud]
+;ikey=
+;skey=
+;api_host=
+;service_account_username=
+;service_account_password=
+
+;;; Duo SSO Section
+
+;;; If using Duo SSO - Uncomment, Add appropriate entry & run the following command w/Duo SSO token
+;;; /opt/duoauthproxy/bin/authproxy_update_sso_enrollment_code <your token here>
+;[sso]
+;rikey=
+;service_account_username=
+;service_account_password=
