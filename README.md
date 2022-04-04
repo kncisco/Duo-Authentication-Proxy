@@ -8,7 +8,7 @@ This repository contains the appropriate files and examples to create your own D
 ### 1. Build the Container
 To build your Duo Authentication Proxy container, simply clone this folder and build the container in the cloned folder.  This step will take some time as we have to complice the code.
 ```
-docker build -t Duo_Auth_Proxy_Latest
+docker build -t Duo_Auth_Proxy_Latest .
 ```
 
 > Pro Tip: A new version of Duo Authentication Proxy is out?  Simply rebuild the container!
@@ -33,7 +33,7 @@ cp /configs/my-dap-config.cfg /opt/duoauthproxy/conf/authproxy.cfg
 > Pro Tip: The Duo Authentication Proxy config file MUST be named "authproxy.cfg"
 
 ### 4. Start Duo Authentication Proxy
-Start the proxy!
+From a shell in the container, Start the proxy!
 ```
 /etc/init.d/duoauthproxy start
 ```
