@@ -1,7 +1,7 @@
 # Duo Authentication Proxy - Containerized
 This repository contains the appropriate files and examples to create your own Duo Authentication Proxy container.  This is an incredibly useful tool when testing or demoing Duo Authenticaiton Proxy.
 
-![Duo SSO Image](https://duo.com/assets/img/documentation/sso/ad_intro_diagram_2x.png)
+![Duo SSO Image](https://duo.com/assets/img/documentation/sso/ad_intro_diagram_2x.png#gh-light-mode-only)
 
 ## Usage
 
