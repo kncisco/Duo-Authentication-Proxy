@@ -28,7 +28,7 @@ You can copy your pre-generated configuration file from the "/configs" folder to
 cp /configs/my-dap-config.cfg /opt/duoauthproxy/conf/authproxy.cfg
 ```
 
-> Pro Tip: The Duo Authentication Proxy config file MUST be named "authproxy.cfg***
+> Pro Tip: The Duo Authentication Proxy config file MUST be named "authproxy.cfg"
 
 ### 4. Start Duo Authentication Proxy
 Start the proxy!
@@ -36,3 +36,7 @@ Start the proxy!
 /etc/init.d/duoauthproxy start
 ```
 
+## Configuration Assistance and Useful Links
+An [example][authproxy.cfg.example] Duo Authentication Proxy configuraiton file h as been included.  Use this file as a starting point for creating your own custom configuration.  Links to the appropriate reference material are as follows.
+
+[Duo Authentication Proxy Reference][https://duo.com/docs/authproxy-reference]
