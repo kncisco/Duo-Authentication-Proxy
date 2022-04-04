@@ -37,6 +37,6 @@ Start the proxy!
 ```
 
 ## Configuration Assistance and Useful Links
-An [example][authproxy.cfg.example] Duo Authentication Proxy configuraiton file h as been included.  Use this file as a starting point for creating your own custom configuration.  Links to the appropriate reference material are as follows.
+An [example](./authproxy.cfg.example) Duo Authentication Proxy configuraiton file h as been included.  Use this file as a starting point for creating your own custom configuration.  Links to the appropriate reference material are as follows.
 
-[Duo Authentication Proxy Reference][https://duo.com/docs/authproxy-reference]
+[Duo Authentication Proxy Reference](https://duo.com/docs/authproxy-reference)
