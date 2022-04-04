@@ -3,6 +3,11 @@ This repository contains the appropriate files and examples to create your own D
 
 ![Duo SSO Image](./duo-sso.png)
 
+## Requirements
+- [Docker](https://www.docker.io) must be installed
+- a bit of Linux command-line knowhow...  
+- That's it.... although, you should have some sort of directory service available - ie - Active Directory or OpenLDAP
+
 ## Usage
 
 ### 1. Build the Container
