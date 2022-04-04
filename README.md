@@ -40,3 +40,5 @@ Start the proxy!
 An [example](./authproxy.cfg.example) Duo Authentication Proxy configuraiton file h as been included.  Use this file as a starting point for creating your own custom configuration.  Links to the appropriate reference material are as follows.
 
 [Duo Authentication Proxy Reference](https://duo.com/docs/authproxy-reference)
+[Duo SSO Documentation](https://duo.com/docs/sso)
+[Docker Documentation](https://docs.docker.com/get-started/02_our_app/)
